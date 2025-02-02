@@ -7,3 +7,6 @@ check out the code, feel free to run it, and maybe make suggestions?
 - Activate virtual env: `. .venv/bin/activate`
 - install deps `pip install -r ./requirements.txt`
 - save new deps `pip freeze > requirements.txt`
+
+# run tests
+- `python -m pytest`

@@ -7,7 +7,6 @@ def test_add_wo_sum():
     expected_sum = 320
     actual_sum = add_wo_plus(num1, num2)
 
-    assert 5 == 4
     assert expected_sum == actual_sum
     
 
