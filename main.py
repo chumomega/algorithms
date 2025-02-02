@@ -7,14 +7,16 @@ import GraphTraversals
 
 def traverseObjectGraph():
     # TODO - Uncomment this code to try the common search algos on a Graph object(that stores edges)
-    graph_instance = Graph({
-        'a': ['b', 'c', 'd'],
-        'd': ['b'],
-        'c': ['a', 'd'],
-        'b': ['a', 'c'],
-    })
-    GraphTraversals.bfs_on_object_graph(graph_instance, 'c')
-    GraphTraversals.dfs_on_object_graph(graph_instance, 'c')
+    graph_instance = Graph(
+        {
+            "a": ["b", "c", "d"],
+            "d": ["b"],
+            "c": ["a", "d"],
+            "b": ["a", "c"],
+        }
+    )
+    GraphTraversals.bfs_on_object_graph(graph_instance, "c")
+    GraphTraversals.dfs_on_object_graph(graph_instance, "c")
 
 
 def traverseMatrixGraph():
@@ -32,7 +34,7 @@ def traverseMatrixGraph():
 
 
 # Press the green button in the gutter to run the script.
-if __name__ == '__main__':
+if __name__ == "__main__":
 
     # Graph Traversal algorithms!
     # traverseObjectGraph()
@@ -42,6 +44,3 @@ if __name__ == '__main__':
     mock_tree = createMockTree()
     printTreeInOrder(mock_tree)
     bfs_on_tree(mock_tree)
-
-
-

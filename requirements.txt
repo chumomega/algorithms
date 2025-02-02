@@ -1,4 +1,13 @@
+-e git+ssh://git@github.com/chumomega/algorithms.git@96de6e007287a307d5bc93b7b25d30f09b3ff648#egg=algorithms
+-e git+ssh://git@github.com/chumomega/algorithms.git@96de6e007287a307d5bc93b7b25d30f09b3ff648#egg=algos
+black==25.1.0
+click==8.1.8
 iniconfig==2.0.0
+mypy-extensions==1.0.0
+numpy==2.2.2
 packaging==24.2
+pathspec==0.12.1
+platformdirs==4.3.6
 pluggy==1.5.0
 pytest==8.3.4
+setuptools==75.8.0

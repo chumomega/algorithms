@@ -2,15 +2,15 @@ from TreeNode import TreeNode
 
 
 def createMockTree() -> TreeNode:
-    node_1 = TreeNode('a')
-    node_2 = TreeNode('b')
-    node_3 = TreeNode('c')
-    node_4 = TreeNode('d')
-    node_5 = TreeNode('e')
-    node_6 = TreeNode('f')
-    node_7 = TreeNode('g')
-    node_8 = TreeNode('h')
-    node_9 = TreeNode('i')
+    node_1 = TreeNode("a")
+    node_2 = TreeNode("b")
+    node_3 = TreeNode("c")
+    node_4 = TreeNode("d")
+    node_5 = TreeNode("e")
+    node_6 = TreeNode("f")
+    node_7 = TreeNode("g")
+    node_8 = TreeNode("h")
+    node_9 = TreeNode("i")
 
     node_1.left = node_2
     node_1.right = node_3

@@ -2,7 +2,7 @@ class Graph:
 
     graph_dict = None
 
-    def __init__(self, graph_dict = None):
+    def __init__(self, graph_dict=None):
         if graph_dict is None:
             self.graph_dict = {}
         else:

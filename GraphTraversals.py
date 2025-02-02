@@ -1,6 +1,7 @@
 import queue
 from Graph import Graph
 
+
 # input - list of lists - adjacency matrix
 def bfs_on_am_graph(graph: list, start: int):
     print("Beginning Breadth first search on matrix graph...")
