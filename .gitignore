@@ -13,3 +13,4 @@ pip-selfcheck.json
 __pycache__/
 pyvenv.cfg
 *.egg-info/
+.vscode/
